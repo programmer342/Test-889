@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        // Weiterleitung für "/dashboard" zu "dashboard.html"
+        if (window.location.pathname === '/dashboard') {
+            window.location.href = '/dashboard.html';
+        }
+        // Standard-404-Fehlerseite
+        else {
+            document.body.innerHTML = '<h1 style="text-align: center; margin-top: 50px;">Seite nicht gefunden</h1>';
+        }
+    </script>
+</head>
+<body></body>
+</html>
